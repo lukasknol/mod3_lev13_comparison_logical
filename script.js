@@ -43,6 +43,17 @@ if (myName === 'Bram' || myName === 'Sarah') {
     console.log('That will be EUR 2.50, please');
 }
 
+
+ if (totalAmount >= 100) {
+    console.log('You get a free bottle of champagne');
+} else if (totalAmount > 50) {
+    console.log('You get a free portion of nachos');
+} else if (totalAmount > 25) {
+    console.log('You get a free portion of bitterballen');
+}
+
+/*
+Other way of making the formula
 if (totalAmount >= 25 && totalAmount < 50) {
     console.log('You get a free portion of bitterballen');
 } else if (totalAmount >= 50 && totalAmount < 100) {
@@ -50,3 +61,4 @@ if (totalAmount >= 25 && totalAmount < 50) {
 } else if (totalAmount >= 100) {
     console.log('You get a free bottle of champagne');
 }
+*/
